@@ -1,6 +1,35 @@
-audios/
-videos/
-__pycache__/
-.env
+# Virtual environments
 venv/
 .venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Raw input data
+documents/
+audios/
+videos/
+
+# Generated/intermediate data
+jsons/
+
+# Generated RAG indexes
+*.joblib
+*.bin
+
+# Generated output files
+output.json
+metadata.json
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
