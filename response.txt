@@ -1,0 +1,16 @@
+Based on the user's question "where is html website", I found the following relevant chunks:
+
+From Video Chunk 3:
+"In this video, we will learn to link an HTML website"
+
+From Video Chunk 4:
+"This is syntax of HTML."
+
+From Video Chunk 2:
+"In HTML you will tell where is your CSS file."
+
+It seems that the answer is not a single location, but rather a part of the process of creating an HTML website. You can find the HTML file, and then you can link to it. The exact location of the HTML file is not specified.
+
+No relevant information was found in the Document Chunks.
+
+If you need more information on how to create an HTML website, I recommend watching Video Chunks 2-4.
