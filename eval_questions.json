@@ -1,0 +1,152 @@
+[
+    {
+        "question": "How do you link an HTML website?",
+        "expected_number": "2",
+        "expected_source_type": "video"
+    },
+    {
+        "question": "What is BookMyCut?",
+        "expected_number": "Ayan_MNNIT",
+        "expected_source_type": "document"
+    },
+    {
+        "question": "What did I work on at NinePay?",
+        "expected_number": "Ayan_MNNIT",
+        "expected_source_type": "document"
+    },
+    {
+        "question": "What is Core Web Vitals?",
+        "expected_number": "6",
+        "expected_source_type": "video"
+    },
+    {
+        "question": "How do you embed a video in HTML?",
+        "expected_number": "10",
+        "expected_source_type": "video"
+    },
+    {
+        "question": "What technologies were used in the Admin Dashboard at NinePay?",
+        "expected_number": "Ayan_MNNIT",
+        "expected_source_type": "document"
+    },
+    {
+        "question": "What is TALENT-IQ?",
+        "expected_number": "Ayan_MNNIT",
+        "expected_source_type": "document"
+    },
+    {
+        "question": "Which technologies were used to build the NinePay Admin Dashboard?",
+        "expected_number": "Ayan_MNNIT",
+        "expected_source_type": "document"
+    },
+    {
+        "question": "How many modules were delivered in the NinePay Admin Dashboard?",
+        "expected_number": "Ayan_MNNIT",
+        "expected_source_type": "document"
+    },
+    {
+        "question": "What was used for REST API integration at NinePay?",
+        "expected_number": "Ayan_MNNIT",
+        "expected_source_type": "document"
+    },
+    {
+        "question": "Which libraries were used for form validation at NinePay?",
+        "expected_number": "Ayan_MNNIT",
+        "expected_source_type": "document"
+    },
+    {
+        "question": "How were real-time WhatsApp alerts implemented at NinePay?",
+        "expected_number": "Ayan_MNNIT",
+        "expected_source_type": "document"
+    },
+    {
+        "question": "What production bugs were diagnosed during the NinePay internship?",
+        "expected_number": "Ayan_MNNIT",
+        "expected_source_type": "document"
+    },
+    {
+        "question": "How did BookMyCut prevent double bookings?",
+        "expected_number": "Ayan_MNNIT",
+        "expected_source_type": "document"
+    },
+    {
+        "question": "How was Razorpay integrated into BookMyCut?",
+        "expected_number": "Ayan_MNNIT",
+        "expected_source_type": "document"
+    },
+    {
+        "question": "What AI feature was added to BookMyCut?",
+        "expected_number": "Ayan_MNNIT",
+        "expected_source_type": "document"
+    },
+    {
+        "question": "What technologies were used in TALENT-IQ?",
+        "expected_number": "Ayan_MNNIT",
+        "expected_source_type": "document"
+    },
+    {
+        "question": "How was code execution handled in TALENT-IQ?",
+        "expected_number": "Ayan_MNNIT",
+        "expected_source_type": "document"
+    },
+    {
+        "question": "What was TanStack Query used for in TALENT-IQ?",
+        "expected_number": "Ayan_MNNIT",
+        "expected_source_type": "document"
+    },
+    {
+        "question": "Which tool was introduced for improving website performance in the SEO video?",
+        "expected_number": "6",
+        "expected_source_type": "video"
+    },
+    {
+        "question": "What does LCP mean in the SEO and Core Web Vitals video?",
+        "expected_number": "6",
+        "expected_source_type": "video"
+    },
+    {
+        "question": "What does FID mean according to the video?",
+        "expected_number": "6",
+        "expected_source_type": "video"
+    },
+    {
+        "question": "What does CLS measure in the Core Web Vitals video?",
+        "expected_number": "6",
+        "expected_source_type": "video"
+    },
+    {
+        "question": "What happens when the layout shifts while a page is loading?",
+        "expected_number": "6",
+        "expected_source_type": "video"
+    },
+    {
+        "question": "What does Lighthouse show in its report?",
+        "expected_number": "6",
+        "expected_source_type": "video"
+    },
+    {
+        "question": "Why are width and height suggested for images?",
+        "expected_number": "6",
+        "expected_source_type": "video"
+    },
+    {
+        "question": "What HTML media elements are covered in the media video?",
+        "expected_number": "10",
+        "expected_source_type": "video"
+    },
+    {
+        "question": "How can video controls be enabled or disabled in HTML?",
+        "expected_number": "10",
+        "expected_source_type": "video"
+    },
+    {
+        "question": "How can a video be muted in HTML?",
+        "expected_number": "10",
+        "expected_source_type": "video"
+    },
+    {
+        "question": "How is an embedded video shown using an iframe?",
+        "expected_number": "10",
+        "expected_source_type": "video"
+    }
+]
