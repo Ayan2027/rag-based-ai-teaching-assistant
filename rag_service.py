@@ -1,9 +1,21 @@
 import sys
 import json
 import requests
+import joblib
 
 from retrieval import hybrid_search
 
+
+# ============================================================
+# Load Query Classification Model
+# ============================================================
+
+classifier = joblib.load("query_classifier.joblib")
+
+
+# ============================================================
+# Ollama Llama 3.2 Inference
+# ============================================================
 
 def inference(prompt):
     response = requests.post(
@@ -20,11 +32,28 @@ def inference(prompt):
     return response.json()
 
 
+# ============================================================
+# Answer Question
+# ============================================================
+
 def answer_question(question):
 
-    # ============================================================
+    # ========================================================
+    # Query Classification
+    # ========================================================
+
+    category = classifier.predict([question])[0]
+
+    # Print to terminal for testing/debugging.
+    # stderr is used so it does not interfere with JSON output.
+    print(
+        f"Predicted category: {category}",
+        file=sys.stderr
+    )
+
+    # ========================================================
     # Hybrid Search + Reranking
-    # ============================================================
+    # ========================================================
 
     results = hybrid_search(
         question,
@@ -32,9 +61,9 @@ def answer_question(question):
         top_k_final=5
     )
 
-    # ============================================================
+    # ========================================================
     # Prepare retrieved chunks for Llama
-    # ============================================================
+    # ========================================================
 
     context_chunks = []
 
@@ -67,9 +96,9 @@ def answer_question(question):
         indent=2
     )
 
-    # ============================================================
+    # ========================================================
     # Prompt
-    # ============================================================
+    # ========================================================
 
     prompt = f"""
 You are an AI teaching assistant for a web development course.
@@ -95,14 +124,18 @@ Instructions:
 8. If unrelated to the knowledge base, say so politely.
 """
 
-    # ============================================================
-    # Generate answer using Ollama Llama 3.2
-    # ============================================================
+    # ========================================================
+    # Generate Answer using Ollama Llama 3.2
+    # ========================================================
 
     response = inference(prompt)
 
     return response["response"]
 
+
+# ============================================================
+# Main
+# ============================================================
 
 if __name__ == "__main__":
 
@@ -110,4 +143,9 @@ if __name__ == "__main__":
 
     answer = answer_question(question)
 
-    print(json.dumps({"answer": answer}))
+    print(
+        json.dumps(
+            {"answer": answer},
+            ensure_ascii=False
+        )
+    )

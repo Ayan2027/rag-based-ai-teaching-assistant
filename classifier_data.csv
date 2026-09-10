@@ -1,0 +1,18 @@
+question,label
+"What is HTML?",HTML
+"What are HTML tags?",HTML
+"What is semantic HTML?",HTML
+"What is CSS?",CSS
+"What is flexbox?",CSS
+"What is CSS grid?",CSS
+"What is JavaScript?",JavaScript
+"What is the DOM?",JavaScript
+"What are JavaScript functions?",JavaScript
+"What is React?",React
+"What are React components?",React
+"What are React hooks?",React
+"What is Node.js?",Backend
+"What is Express.js?",Backend
+"What is middleware?",Backend
+"What is MongoDB?",Database
+"What is a MongoDB collection?",Database

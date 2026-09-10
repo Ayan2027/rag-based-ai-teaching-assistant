@@ -33,3 +33,7 @@ metadata.json
 # OS files
 .DS_Store
 Thumbs.db
+
+query_classifier.joblib
+__pycache__/
+*.pyc
